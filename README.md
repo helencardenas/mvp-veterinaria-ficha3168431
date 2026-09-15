@@ -7,7 +7,6 @@ Proyecto web de una clínica veterinaria para la gestión de mascotas y usuarios
 - Karla Angulo
 - Helen Cardenas
 - Laura Muñoz
-- Juan Ospina
 - Samanta Lievano
 
 ## Como ponerlo a funcionar
