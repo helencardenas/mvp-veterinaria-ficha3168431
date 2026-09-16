@@ -1,1 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veterinaria de Mascotas - Vista Previa</title>
+</head>
+<body>
 
+    <h1>Módulo de Mascotas - Veterinaria</h1>
+    
+    <hr>
+
+    <!-- Formulario visual -->
+    <h3>Registrar / Editar Mascota</h3>
+    <form>
+        <label>Nombre:</label><br>
+        <input type="text" name="nombre" placeholder="Ej. Firulais"><br><br>
+
+        <label>Especie:</label><br>
+        <input type="text" name="especie" placeholder="Ej. Canino"><br><br>
+
+        <label>Dueño:</label><br>
+        <input type="text" name="dueno" placeholder="Ej. Carlos Pérez"><br><br>
+
+        <label>Edad:</label><br>
+        <input type="number" name="edad" placeholder="Ej. 3"><br><br>
+
+        <label>Fecha de Consulta:</label><br>
+        <input type="date" name="fecha_consulta"><br><br>
+
+        <button type="submit">Guardar Registro</button>
+    </form>
+
+    <hr style="margin: 40px 0;">
+
+    <!-- Tabla visual de consultas -->
+    <h3>Lista de Mascotas Registradas</h3>
+    <table border="1" cellpadding="10" cellspacing="0">
+        <tr>
+            <th>Nombre</th>
+            <th>Especie</th>
+            <th>Dueño</th>
+            <th>Edad</th>
+            <th>Fecha Consulta</th>
+            <th>Acciones</th>
+        </tr>
+        <tr>
+            <td>Firulais</td>
+            <td>Canino</td>
+            <td>Carlos Pérez</td>
+            <td>3</td>
+            <td>2026-06-01</td>
+            <td>
+                <a href="#">Editar</a> | 
+                <a href="#" onclick="return confirm('¿Seguro que quieres eliminar?')">Eliminar</a>
+            </td>
+        </tr>
+        <tr>
+            <td>Michi</td>
+            <td>Felino</td>
+            <td>Ana Gómez</td>
+            <td>2</td>
+            <td>2026-06-02</td>
+            <td>
+                <a href="#">Editar</a> | 
+                <a href="#" onclick="return confirm('¿Seguro que quieres eliminar?')">Eliminar</a>
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
